@@ -135,7 +135,7 @@ class _BrowseFragmentState extends State<BrowseFragment> {
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 24),
           child: Text(
-            "Newest Bikes",
+            "Newest Camping",
             style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w700,
@@ -283,7 +283,7 @@ class _BrowseFragmentState extends State<BrowseFragment> {
           if (list.isEmpty) {
             return const Center(
               child: Text(
-                "No Featured Bikes Available.",
+                "No Featured Camping Available.",
                 style: TextStyle(fontSize: 16),
               ),
             );
@@ -431,9 +431,6 @@ class _BrowseFragmentState extends State<BrowseFragment> {
 
   Widget buildCategories() {
     final categories = [
-      // ["City", "assets/ic_city.png"],
-      // ["Downhill", "assets/ic_downhill.png"],
-      // ["Beach", "assets/ic_beach.png"],
       ["Paket A", "assets/ic_city.png"],
       ["Paket B", "assets/ic_downhill.png"],
       ["Paket C", "assets/ic_beach.png"],

@@ -13,14 +13,12 @@ class SplashScreen extends StatelessWidget {
         children: [
           const Gap(70),
           Image.asset(
-            // "assets/logo_camping.png",
             "assets/logo_camping.png",
             height: 38,
             width: 171,
           ),
           const Gap(30),
           const Text(
-            // "Drive & Be Happy!",
             "Camping & Be Happy!",
             style: TextStyle(
                 fontSize: 32,
@@ -29,15 +27,12 @@ class SplashScreen extends StatelessWidget {
           ),
           Expanded(
               child: Transform.translate(
-            // offset: const Offset(-99, 0),
             offset: const Offset(15, 0),
-            // child: Image.asset("assets/splash_screen.png"),
             child: Image.asset("assets/tent-1.png"),
           )),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24),
             child: Text(
-              // "We provide all beautiful motorbike for your road trip and great memories of life.",
               "We provide all kinds of beautiful camping for your stay and the memories of your life.",
               style: TextStyle(
                   height: 1.7,
