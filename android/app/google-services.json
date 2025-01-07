@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877199794261",
+    "project_id": "booking-camp-8b08b",
+    "storage_bucket": "booking-camp-8b08b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877199794261:android:939f77976e2373f3b1b4dc",
+        "android_client_info": {
+          "package_name": "com.example.flutter_booking_camping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXdhEpiv6v86VSDNiladnM4dy8qhsW55I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

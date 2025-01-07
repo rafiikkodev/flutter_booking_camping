@@ -1,0 +1,19 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": { "default": { "projectId": "booking-camp-8b08b", "appId": "1:877199794261:android:939f77976e2373f3b1b4dc", "fileOutput": "android/app/google-services.json" } },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "booking-camp-8b08b",
+          "configurations": {
+            "android": "1:877199794261:android:939f77976e2373f3b1b4dc",
+            "ios": "1:877199794261:ios:5565ed0a9fbb7d82b1b4dc",
+            "macos": "1:877199794261:ios:5565ed0a9fbb7d82b1b4dc",
+            "web": "1:877199794261:web:e29078fab6c286b8b1b4dc",
+            "windows": "1:877199794261:web:2d4ed5d7671fedecb1b4dc"
+          }
+        }
+      }
+    }
+  }
+}
